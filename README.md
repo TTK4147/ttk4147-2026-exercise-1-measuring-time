@@ -183,7 +183,10 @@ for(int i = 0; i < ns_max; i++){
 Pipe the output from the program into `gnuplot` like this:
 
 ```shell
-    ./program_name | gnuplot -p -e "plot '<cat' with boxes"
+./program_name | gnuplot -e "
+set output 'plot.png';
+set title 'My Plot';
+plot '<cat' with boxes"
 ```
 
 If gnuplot is not installed or you get an error regarding gnuplot, use the
