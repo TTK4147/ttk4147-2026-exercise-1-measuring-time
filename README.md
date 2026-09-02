@@ -190,7 +190,7 @@ If gnuplot is not installed or you get an error regarding gnuplot, use the
 following command to install the correct version:
 
 ```shell
-    sudo apt install gnuplot-x11
+    sudo apt install gnuplot
 ```
 
 Hint: `times()` might seem like it has infinite resolution, but this is not
