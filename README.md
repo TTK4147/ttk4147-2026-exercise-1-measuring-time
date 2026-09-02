@@ -192,6 +192,7 @@ following command to install the correct version:
 ```shell
     sudo apt install gnuplot
 ```
+The created png can be copied over to the lab-pc and viewed there. 
 
 Hint: `times()` might seem like it has infinite resolution, but this is not
 true. Have a look at the documentation to find out why.
